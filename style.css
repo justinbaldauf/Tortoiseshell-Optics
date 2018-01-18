@@ -170,3 +170,25 @@ footer .logo {
   margin-top: 4rem;
   margin-left: 4rem;
 }
+
+@media only screen and (max-width: 1024px) {
+  header {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .tagline-container {
+    margin-top: 5rem;
+    border: 1px black dotted;
+  }
+
+  .tagline {
+    margin-right: 2rem;
+  }
+
+  .tagline p {
+    font-size: 1.33rem;
+    line-height: 1.2;
+    padding: .75rem 4rem;
+  }
+}
