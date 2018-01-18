@@ -57,6 +57,10 @@ nav {
   border: 1px black solid;
 }
 
+nav.mobile {
+  display: none;
+}
+
 nav p {
   padding-left: 2rem;
 }
@@ -190,5 +194,25 @@ footer .logo {
     font-size: 1.33rem;
     line-height: 1.2;
     padding: .75rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .background {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .logo p {
+    display: none;
+  }
+
+  nav.full-screen {
+    display: none;
+  }
+
+  nav.mobile {
+    display: flex;
+    align-items: flex-end;
   }
 }
