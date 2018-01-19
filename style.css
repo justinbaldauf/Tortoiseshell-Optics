@@ -86,7 +86,6 @@ nav p {
 }
 
 .white-container {
-  height: 50rem;
   width: 100%;
   border: 2px black solid;
 }
@@ -133,7 +132,7 @@ nav p {
 .label-and-text {
   display: flex;
   flex-direction: column;
-  border: 1px black solid;
+  border: 2px black solid;
 }
 
 .label {
@@ -258,17 +257,47 @@ footer .logo {
     margin-right: 0;
     margin-top: 1.54rem;
     margin-bottom: 1.54rem;
-    }
-}
-/*
-.service {
-  height: 8rem;
-  justify-content: space-between;
-  border: 2px black solid;
-}
+  }
 
-.flex-col-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
+  .text-wrap {
+    margin-top: 3.77rem;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .label {
+    width: 100%;
+  }
+
+  .label p {
+    width: 7rem;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  .text p {
+    width: 18rem;
+    margin: 0 auto;
+    font-size: .77rem;
+  }
+
+  #appointments {
+    margin-left: 0;
+    margin-top: 4rem;
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .logo {
+    margin-top: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
