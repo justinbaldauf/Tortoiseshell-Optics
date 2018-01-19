@@ -70,7 +70,7 @@ nav p {
   margin-top: 10rem;
   display: flex;
   justify-content: flex-end;
-  /* border: 1px black dotted; */
+  border: 2px black dotted;
 }
 
 .tagline {
@@ -86,7 +86,7 @@ nav p {
 }
 
 .white-container {
-  height: 40rem;
+  height: 50rem;
   width: 100%;
   border: 2px black solid;
 }
@@ -98,16 +98,15 @@ nav p {
 }
 
 .services-wrap {
-  height: 8rem;
   margin-top: 3rem;
   border: 2px black dotted;
   display: flex;
 }
 
 .service {
-  height: 100%;
+  height: 8rem;
   justify-content: space-between;
-  border: 1px black solid;
+  border: 2px black solid;
 }
 
 .exams img {
@@ -198,6 +197,7 @@ footer .logo {
 }
 
 @media only screen and (max-width: 470px) {
+
   .background {
     height: 17rem;
     background-position: 20%;
@@ -215,4 +215,60 @@ footer .logo {
     display: flex;
     align-items: flex-end;
   }
+
+  .tagline-container {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 9rem;
+    border: 1px black dotted;
+  }
+
+  .tagline {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .tagline p {
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .services-wrap {
+    height: 100%;
+    margin-top: 3.77rem;
+    flex-direction: column;
+  }
+
+  .service {
+    height: auto;
+    justify-content: flex-start;
+  }
+
+  .service p {
+    font-size: .77rem;
+  }
+
+  .service img {
+    padding-bottom: 1.54rem;
+  }
+
+  .fittings {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1.54rem;
+    margin-bottom: 1.54rem;
+    }
 }
+/*
+.service {
+  height: 8rem;
+  justify-content: space-between;
+  border: 2px black solid;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
